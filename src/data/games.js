@@ -1,0 +1,123 @@
+export const gamesDb = {
+  'snes-mario': {
+    id: 'snes-mario',
+    url: '/supermarioworld.sfc',
+    core: 'snes',
+    nome: 'Super Mario World',
+    console: 'SNES',
+    ano: '1990',
+    fabricante: 'Nintendo',
+    capa: 'https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png',
+    descricao:
+      'O clássico absoluto que definiu o SNES. Junte-se a Mario e Luigi na Terra dos Dinossauros.',
+  },
+  'gen-sonic': {
+    id: 'gen-sonic',
+    url: '/sonicthehedgehog.sms',
+    core: 'segaMS',
+    nome: 'Sonic The Hedgehog',
+    console: 'MASTER SYSTEM',
+    ano: '1991',
+    fabricante: 'SEGA',
+    capa: 'https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg',
+    descricao:
+      'A estreia do ouriço mais rápido do mundo nos 8-bits! Corra através da Green Hill Zone.',
+  },
+  'md-sonic2': {
+    id: 'md-sonic2',
+    url: '/SonictheHedgehog2.smd',
+    core: 'segaMD',
+    nome: 'Sonic The Hedgehog 2',
+    console: 'MEGA DRIVE',
+    ano: '1992',
+    fabricante: 'SEGA',
+    capa: 'https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg',
+    descricao: 'A sequência lendária que introduziu Tails.',
+  },
+  'sega-mk3': {
+    id: 'sega-mk3',
+    url: '/Ultimate Mortal Kombat 3.smd',
+    core: 'segaMD',
+    nome: 'Ultimate Mortal Kombat 3',
+    console: 'MEGA DRIVE',
+    ano: '1995',
+    fabricante: 'Midway',
+    capa: '/ultimate-mortal-kombat-3-capa.webp',
+    descricao:
+      'A versão definitiva de MK3! Novos lutadores (Scorpion, Kitana), jogabilidade mais rápida e novos Brutalities.',
+  },
+  'md-goldenaxe': {
+    id: 'md-goldenaxe',
+    url: '/goldenaxe.md',
+    core: 'segaMD',
+    nome: 'Golden Axe',
+    console: 'MEGA DRIVE',
+    ano: '1989',
+    fabricante: 'SEGA',
+    capa: '/goldenaxe.jpg',
+    descricao:
+      'Em um mundo de fantasia medieval, escolha entre um bárbaro, uma amazona ou um anão e lute contra as forças do malvado Death Adder.',
+  },
+  'md-streetofrage': {
+    id: 'md-streetofrage',
+    url: '/streetofrage.md',
+    core: 'segaMD',
+    nome: 'Streets of Rage',
+    console: 'MEGA DRIVE',
+    ano: '1991',
+    fabricante: 'SEGA',
+    capa: '/Streets_of_Rage.jpeg',
+    descricao:
+      'A cidade foi tomada por uma poderosa organização criminosa. Jogue como Axel, Blaze ou Adam e limpe as ruas na base da pancadaria! Trilha sonora lendária de Yuzo Koshiro.',
+  },
+  'n64-mario': {
+    id: 'n64-mario',
+    url: '/mario64.z64',
+    core: 'n64',
+    nome: 'Super Mario 64',
+    console: 'NINTENDO 64',
+    ano: '1996',
+    fabricante: 'Nintendo',
+    capa: '/Super_Mario_64.jpg',
+    descricao:
+      'A revolução do mundo dos games! O primeiro Mario em 3D definiu o gênero de plataforma.',
+  },
+  'gba-zelda': {
+    id: 'gba-zelda',
+    url: '/LegendOfZeldaTheMinishCap.gba',
+    core: 'gba',
+    nome: 'The Legend of Zelda: The Minish Cap',
+    console: 'GBA',
+    ano: '2004',
+    fabricante: 'Nintendo',
+    capa: '/zelda.jpg',
+    descricao:
+      'Link encontra Ezlo, um chapéu falante que o faz encolher. Uma aventura gigante em um mundo minúsculo!',
+  },
+  'snes-topgear': {
+    id: 'snes-topgear',
+    url: '/topgear.smc',
+    core: 'snes',
+    nome: 'Top Gear',
+    console: 'SNES',
+    ano: '1992',
+    fabricante: 'Kemco / Gremlin',
+    capa: '/Capa_de_Top_Gear.jpg',
+    descricao:
+      'O jogo de corrida mais amado do Brasil! Escolha entre quatro carros, gerencie seu combustível e nitro.',
+  },
+  'gb-pokemon': {
+    id: 'gb-pokemon',
+    url: '/PokémonSilver.gbc',
+    core: 'gb',
+    nome: 'Pokémon Silver',
+    console: 'GAME BOY',
+    ano: '1999',
+    fabricante: 'Game Freak / Nintendo',
+    capa: '/pokemon-silver.jpg',
+    descricao:
+      'Uma jornada épica por Johto e Kanto! Capture novos Pokémon, enfrente a Equipe Rocket e descubra os mistérios de Lugia e Ho-Oh.',
+  },
+};
+
+export const gamesList = Object.values(gamesDb);
